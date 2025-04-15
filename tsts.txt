@@ -1,0 +1,17 @@
+# First verify git is installed
+git --version
+
+# If the above works, proceed with these commands
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote remove origin
+git remote add origin https://github.com/HannaMagno/Eventhub.git
+git push -u origin main
+
+# If any command fails, ensure:
+# 1. Git is installed
+# 2. You're in the correct directory
+# 3. You have proper permissions
+# 4. The repository exists on GitHub
