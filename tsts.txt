@@ -7,7 +7,7 @@ git add .
 git commit -m "Initial commit"
 git branch -M main
 git remote remove origin
-git remote add origin https://github.com/HannaMagno/Eventhub.git
+git remote add origin https://github.com/crazyshibal/Eventhub.git
 git push -u origin main
 
 # If any command fails, ensure:
