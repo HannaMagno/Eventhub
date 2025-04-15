@@ -10,7 +10,8 @@ git branch -M main
 git remote remove origin
 # Add new origin with your username
 git remote add origin https://github.com/HannaMagno/Eventhub.git
-git push -u origin main
+# Force push to overwrite remote repository
+git push -f -u origin main
 
 # If any command fails, ensure:
 # 1. Git is installed
