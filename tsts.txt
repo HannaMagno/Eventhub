@@ -8,8 +8,8 @@ git commit -m "Initial commit"
 git branch -M main
 # Remove old origin if exists
 git remote remove origin
-# Add new origin
-git remote add origin https://github.com/crazyshibal/Eventhub.git
+# Add new origin with your username
+git remote add origin https://github.com/HannaMagno/Eventhub.git
 git push -u origin main
 
 # If any command fails, ensure:
@@ -18,3 +18,4 @@ git push -u origin main
 # 3. You have proper permissions
 # 4. The repository exists on GitHub
 # 5. You have created the repository on GitHub before pushing
+# 6. You are using the correct GitHub username (HannaMagno)
